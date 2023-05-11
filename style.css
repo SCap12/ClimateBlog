@@ -25,13 +25,35 @@ ul {
 
   .header-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
-    margin-left: 40%;
+    background-color: rgb(187, 202, 216);
+    width: 100%;rgb(154, 160, 166)
   }
 
   @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
+    .leftcolumn, .rightcolumn    
       width: 100%;
       padding: 0;
+    }
+
+
+    .home-images {
+   
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+
+    }
+    .image1 {
+      max-width: 10%;
+    }
+
+    .image2 {
+      max-width: 10%;
+    }
+
+    .image3 {
+      max-width: 10%;
     }

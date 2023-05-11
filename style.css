@@ -4,6 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-radius: 3px;
   }
   
   li {
@@ -25,10 +26,20 @@ ul {
 
   .header-box {
     display: flex;
+    height: 300px;
     justify-content: center;
     text-align: center;
+    border-radius: 10px;
+    border: 3px #5a7e95;
+    align-items:center;
     background-color: rgb(187, 202, 216);
     width: 100%;rgb(154, 160, 166)
+  }
+
+  h1 {
+    font-size: 100px;
+    font-family: 'Wix Madefor Text', sans-serif;
+    color: grey;
   }
 
   @media screen and (max-width: 800px) {
@@ -41,19 +52,14 @@ ul {
     .home-images {
    
       display: flex;
+      height: 300px;
+      padding: 10px;
       flex-direction: row;
-      justify-content: center;
-
+      justify-content: space-between;
 
     }
-    .image1 {
-      max-width: 10%;
-    }
 
-    .image2 {
-      max-width: 10%;
-    }
-
-    .image3 {
-      max-width: 10%;
+    .images {
+      flex: auto;
+      margin: 5%;
     }

@@ -97,11 +97,19 @@ ul {
     border: 4px solid rgb(187, 202, 216);
     border-radius: 10px;
 
+  }
 
-    #latest-posts {
-      text-align: center;
+.post-list {
+      background-color: #c1c0c0;
+      margin-top: 100px;
+      margin-left: 150px;
+      max-width: 80%;
+      height: 500px;
+      padding: 10px;
+      align-items: center;
     }
 
-    .post-list {
-      background-color: #ccc;
+    
+#latest-posts {
+      text-align: center;
     }

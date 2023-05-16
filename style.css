@@ -96,3 +96,12 @@ ul {
   form {
     border: 4px solid rgb(187, 202, 216);
     border-radius: 10px;
+
+
+    #latest-posts {
+      text-align: center;
+    }
+
+    .post-list {
+      background-color: #ccc;
+    }

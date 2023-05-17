@@ -96,9 +96,20 @@ ul {
   form {
     border: 4px solid rgb(187, 202, 216);
     border-radius: 10px;
+
   }
 
-  .leftcolumn{
-    float: left;
-    width: 75%;
-  }
+.post-list {
+      background-color: #c1c0c0;
+      margin-top: 100px;
+      margin-left: 150px;
+      max-width: 80%;
+      height: 500px;
+      padding: 10px;
+      align-items: center;
+    }
+
+    
+#latest-posts {
+      text-align: center;
+    }

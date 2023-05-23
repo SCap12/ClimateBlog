@@ -49,7 +49,7 @@ ul {
     }
 
 
-    .home-images {
+.home-images {
    
       display: flex;
       height: 300px;
@@ -75,7 +75,7 @@ ul {
   
   }
 
-  .newsletter-box{
+  .newsletter-box {
     bottom: 0px;
     position: relative;
     width: 100%;
@@ -83,6 +83,17 @@ ul {
     font-family: 'Wix Madefor Text', sans-serif;
     
   }
+
+      
+#latest-posts {
+  text-align: center;
+}
+
+#Glacial-melting, #wind-turbines {
+max-width: 20px;
+height: 20px;
+}
+
 
   input[type=text], input[type=submit]{
     width: 100%;
@@ -177,7 +188,4 @@ article ul li:before {
       align-items: center;
     }
 
-    
-#latest-posts {
-      text-align: center;
-    }
+

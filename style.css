@@ -1,4 +1,4 @@
-ul {
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@ ul {
     background-color: rgb(187, 202, 216);
     width: 100%;rgb(154, 160, 166)
   }
-
+  
   h1 {
     font-size: 100px;
     font-family: 'Wix Madefor Text', sans-serif;
@@ -65,7 +65,8 @@ ul {
     }
 
     .image3 {
-      max-width: 10%;
+      max-width: 100%;
+      height: auto;
     }
 
   .newsletter{
@@ -110,6 +111,7 @@ input[type=text], input[type=submit]{
 
   }
 
+<<<<<<< HEAD
   .article-style {
       margin: 0;
       padding: 0;
@@ -177,6 +179,8 @@ article ul li:before {
   }
 
 
+=======
+>>>>>>> c763e3f79470094dc7a21deda4cec625197f4686
 .post-list {
       background-color: #c1c0c0;
       margin-top: 100px;
@@ -187,4 +191,78 @@ article ul li:before {
       align-items: center;
     }
 
+    
+#latest-posts {
+      text-align: center;
+    }
 
+    /*Article style*/
+    .articles {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h3 {
+      color: yellowgreen;
+
+    }
+    /*Style contact*/
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      margin-top: 20px;
+    }
+    
+    label {
+      font-weight: bold;
+      color: #5a7e95;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+    background-color: #c1c0c0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+    background-color: #c1c0c0;
+    }

@@ -89,13 +89,13 @@ ul {
   text-align: center;
 }
 
-#Glacial-melting, #wind-turbines {
-max-width: 20px;
-height: 20px;
+#glacial-melting, #wind-turbines, #protest {
+max-width: 100px;
+height: 100px;
 }
 
 
-  input[type=text], input[type=submit]{
+input[type=text], input[type=submit]{
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -111,7 +111,6 @@ height: 20px;
   }
 
   .article-style {
-    * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -176,7 +175,7 @@ article ul li:before {
     margin-bottom: 20px;
 
   }
-}
+
 
 .post-list {
       background-color: #c1c0c0;

@@ -263,3 +263,31 @@ article ul li:before {
     input[type="submit"]:hover {
     background-color: #c1c0c0;
     }
+
+    /*About style*/
+    .about-section {
+      padding: 20px;
+      background-color: #F5F5F5;
+      border-radius: 5px;
+    }
+    
+    .about-section h2 {
+      color: #009688;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .about-section p {
+      color: #333333;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    .about-section a {
+      color: #FF5722;
+      text-decoration: none;
+    }
+    .about-section a:hover {
+      text-decoration: underline;
+    }
+

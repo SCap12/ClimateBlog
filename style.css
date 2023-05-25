@@ -111,7 +111,6 @@ input[type=text], input[type=submit]{
 
   }
 
-<<<<<<< HEAD
   .article-style {
       margin: 0;
       padding: 0;
@@ -179,8 +178,6 @@ article ul li:before {
   }
 
 
-=======
->>>>>>> c763e3f79470094dc7a21deda4cec625197f4686
 .post-list {
       background-color: #c1c0c0;
       margin-top: 100px;

@@ -183,7 +183,7 @@ article ul li:before {
       margin-top: 100px;
       margin-left: 150px;
       max-width: 80%;
-      height: 500px;
+      height: 625px;
       padding: 10px;
       align-items: center;
     }
@@ -199,7 +199,7 @@ article ul li:before {
       margin: 0 auto;
     }
 
-    h3 {
+    #green-text {
       color: yellowgreen;
 
     }
@@ -263,3 +263,19 @@ article ul li:before {
     input[type="submit"]:hover {
     background-color: #c1c0c0;
     }
+
+
+    .post-box {
+        display: flex;
+      }
+      
+         
+      .post-image {
+        flex-basis: 40%
+      }
+      
+      .post-text {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+    

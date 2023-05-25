@@ -280,3 +280,16 @@ article ul li:before {
         padding-left: 20px;
       }
     
+
+      .article-list {
+        display: flex
+      }
+      .article-image {
+        flex-basis: 40%
+      }
+      
+      .article-text {
+        font-size: 20px;
+        padding-right: 20px;
+      }
+    

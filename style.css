@@ -90,13 +90,13 @@
   text-align: center;
 }
 
-#Glacial-melting, #wind-turbines {
-max-width: 20px;
-height: 20px;
+#glacial-melting, #wind-turbines, #protest {
+max-width: 100px;
+height: 100px;
 }
 
 
-  input[type=text], input[type=submit]{
+input[type=text], input[type=submit]{
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -110,6 +110,73 @@ height: 20px;
     border-radius: 10px;
 
   }
+
+  .article-style {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+  article {
+    margin-bottom: 20px;
+
+  }
+
+  article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: green;
+  }
+
+article p {
+    margin-bottom: 10px;
+  }
+
+article figure {
+    margin: 20px 0;
+  }
+
+article img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+article figcaption {
+    font-style: italic;
+    text-align: left;
+  }
+
+article ul {
+    margin-bottom: 10px;
+  }
+
+  article ul li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+  }
+
+article ul li:before {
+    content: "\2022";
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  article section{
+    margin-bottom: 20px;
+
+  }
+
 
 .post-list {
       background-color: #c1c0c0;

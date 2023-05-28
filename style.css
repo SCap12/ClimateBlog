@@ -265,31 +265,35 @@ article ul li:before {
     background-color: #c1c0c0;
     }
 
-
-    .post-box {
-        display: flex;
+ .post-box {
+   display: flex;
       }
       
          
-      .post-image {
-        flex-basis: 40%
+.post-image {
+  flex-basis: 40%
+  padding: 20px
+  
       }
       
-      .post-text {
-        font-size: 20px;
-        padding-left: 20px;
+.post-text {
+  font-size: 20px;
+  padding-left: 20px;
       }
     
 
-      .article-list {
-        display: flex
-      }
-      .article-image {
-        flex-basis: 40%
-      }
-      
-      .article-text {
-        font-size: 20px;
-        padding-right: 20px;
+    
+.article-text {
+  font-size: 20px;
+  padding-right: 20px;
       }
     
+.article-break {
+  border: 0.5px solid rgb(50, 50, 50);
+  width: 80%
+  margin: auto
+}
+
+#article-heading {
+  text-align: center;
+}

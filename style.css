@@ -1,4 +1,4 @@
-ul {
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@ ul {
     background-color: rgb(187, 202, 216);
     width: 100%;
   }
-
+  
   h1 {
     font-size: 100px;
     font-family: 'Wix Madefor Text', sans-serif;
@@ -53,6 +53,7 @@ ul {
    
       display: flex;
       height: 300px;
+      max-width: 24%;
       padding: 3px;
       flex-direction: row;
       justify-content: space-between;
@@ -65,7 +66,8 @@ ul {
     }
 
     .image3 {
-      max-width: 10%;
+      max-width: 100%;
+      height: auto;
     }
 
   .newsletter{
@@ -86,30 +88,25 @@ ul {
     width: 100%;
     margin-top: 20px;
     font-family: 'Wix Madefor Text', sans-serif;
-    border-radius: 5px;
-    border-width: 1px;
     
-    
-  }
-
   .text-input{
   margin: 20px;
   }
 
-  
+      
 
       
 #latest-posts {
   text-align: center;
 }
 
-#Glacial-melting, #wind-turbines {
-max-width: 20px;
-height: 20px;
+#glacial-melting, #wind-turbines, #protest {
+max-width: 100px;
+height: 100px;
 }
 
 
-  input[type=text], input[type=submit]{
+input[type=text], input[type=submit]{
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -120,7 +117,6 @@ height: 20px;
 
 
   .article-style {
-    * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -167,6 +163,8 @@ article ul {
     margin-bottom: 10px;
   }
 
+  
+
   article ul li {
     margin-bottom: 5px;
     padding-left: 20px;
@@ -185,14 +183,14 @@ article ul li:before {
     margin-bottom: 20px;
 
   }
-}
+
 
 .post-list {
       background-color: #c1c0c0;
       margin-top: 100px;
       margin-left: 150px;
       max-width: 80%;
-      height: 500px;
+      height: 625px;
       padding: 10px;
       align-items: center;
     }
@@ -222,7 +220,113 @@ article ul li:before {
   padding: 14px 16px;
   float: left;
   text-align:center
-
+    
 }
+    #latest-posts {
+      text-align: center;
+    }
+
+    /*Article style*/
+    .articles {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    #green-text {
+      color: yellowgreen;
+
+    }
+    /*Style contact*/
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
     
     }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      margin-top: 20px;
+    }
+    
+    label {
+      font-weight: bold;
+      color: #5a7e95;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+    background-color: #c1c0c0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+    background-color: #c1c0c0;
+    }
+
+ .post-box {
+   display: flex;
+      }
+      
+         
+.post-image {
+  flex-basis: 40%
+  padding: 20px
+  
+      }
+      
+.post-text {
+  font-size: 20px;
+  padding-left: 20px;
+      }
+    
+
+    
+.article-text {
+  font-size: 20px;
+  padding-right: 20px;
+      }
+    
+.article-break {
+  border: 0.5px solid rgb(50, 50, 50);
+  width: 80%
+  margin: auto
+}
+
+#article-heading {
+  text-align: center;
+}

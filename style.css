@@ -76,7 +76,7 @@
   text-align: center;
   }
 
-  form {
+  n-form {
     border: 1px solid rgb(187, 202, 216);
     border-radius: 5px;
 
@@ -200,7 +200,7 @@ article ul li:before {
       text-align: center;
     }
 
-    .footer {
+.footer {
       padding: 10px;
       margin: 10px;
       background-color:#333;
@@ -222,7 +222,8 @@ article ul li:before {
   text-align:center
     
 }
-    #latest-posts {
+
+#latest-posts {
       text-align: center;
     }
 

@@ -161,6 +161,7 @@ article figcaption {
 
 article ul {
     margin-bottom: 10px;
+    
   }
 
   
@@ -172,7 +173,6 @@ article ul {
 
 article ul li:before {
     content: "\2022";
-    color: #333;
     font-weight: bold;
     display: inline-block;
     width: 1em;

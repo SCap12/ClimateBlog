@@ -201,7 +201,7 @@ article ul li:before {
     }
 
 .footer {
-      padding: 10px;
+      padding: 100px;
       margin: 10px;
       background-color:#333;
       width: 100%;
@@ -212,14 +212,14 @@ article ul li:before {
     }
 
 .btm-navbar a{
-  display:block;
-  color: white;
+display: block;
+  color:white;
   list-style-type: none;
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
   float: left;
-  text-align:center
+  
     
 }
 

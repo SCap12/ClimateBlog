@@ -88,6 +88,7 @@
     width: 100%;
     margin-top: 20px;
     font-family: 'Wix Madefor Text', sans-serif;
+  }
     
   .text-input{
   margin: 20px;
@@ -159,7 +160,25 @@ article figcaption {
     text-align: left;
   }
 
+article ul {
+    margin-bottom: 10px;
+    
+  }
 
+  
+
+  article ul li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+  }
+
+article ul li:before {
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
 
   article section{
     margin-bottom: 20px;
@@ -240,7 +259,6 @@ display: block;
       margin-bottom: 20px;
     }
     
-    }
     .container {
       max-width: 800px;
       margin: 0 auto;
